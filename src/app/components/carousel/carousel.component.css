@@ -1,0 +1,64 @@
+.carousel-notice-list{
+  display: flex;
+  flex-direction: row;
+}
+.carousel-notice-item{
+  padding: .5rem;
+  margin: .4rem;
+  width: 12rem;
+  border-bottom: solid 0.5px orange;
+}
+
+.cover-wrapper {
+  position: relative;
+}
+
+.cover-wrapper span{
+  position: absolute;
+  top: .2rem;
+  right: .2rem;
+}
+
+.cover-wrapper img{
+  width: 11rem;
+  height: 13rem;
+}
+
+.label-good{
+  background: greenyellow;
+  color: white;
+  border-radius: .1rem;
+  width: 2rem;
+  height: 1.5rem;
+  margin: auto;
+  text-align: center;
+  margin-right: .5rem;
+  border-radius: .3rem;
+  font-weight: 700;
+}
+
+.label-regular{
+  background: orange;
+  color: white;
+  width: 2rem;
+  height: 1.5rem;
+  margin: auto;
+  text-align: center;
+  margin-right: .5rem;
+  border-radius: .3rem;
+  font-weight: 700;
+}
+
+.label-bad{
+  background: #cd0800;
+  color: white;
+  width: 2rem;
+  height: 1.5rem;
+  margin: auto;
+  text-align: center;
+  margin-right: .5rem;
+  border-radius: .3rem;
+  font-weight: 700;
+}
+
+

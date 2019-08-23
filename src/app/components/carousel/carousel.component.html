@@ -1,0 +1,20 @@
+<div class="carousel-notice">
+  <div class="carousel-notice-list">
+    <div class="carousel-notice-item" *ngFor="let it of carouselData">
+      <div class="cover-wrapper">
+        <span [ngClass]="{
+           'label-good':it.score >8 && it.score <=10,
+           'label-regular':it.score >=5 && it.score <=7,
+           'label-bad': it.score >=1 && it.score <5
+           }">
+          {{it.score}}
+        </span>
+          <img [src]="it.cover" alt="img">
+        </div>
+        <div class="preview-content">
+          <strong>{{it.title}}</strong>
+          <p>{{it.summary}}</p>
+        </div>
+      </div>
+    </div>
+</div>

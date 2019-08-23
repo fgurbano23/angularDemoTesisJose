@@ -1,0 +1,9 @@
+p{
+  color:red
+}
+
+.label-red-bg{
+  background: red;
+  border-radius: 2rem;
+}
+

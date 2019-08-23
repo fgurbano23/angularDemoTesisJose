@@ -1,0 +1,16 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-4 col-md-3 col-lg-3">
+      <app-bulletin-board [bulletinBoard]="bulletinBoard"></app-bulletin-board>
+      <app-aside [asideData]="asideData"></app-aside>
+    </div>
+    <div class="col-sm-4 col-md-6 col-lg-6 p-0">
+      <app-carousel [carouselData]="carouselData"></app-carousel>
+      <hr>
+      <app-breaking-news [breakingNews]="breakingNews"></app-breaking-news>
+    </div>
+    <div class="col-sm-4 col-md-3 col-lg-3">
+      <app-critic-review-board [reviewData]="reviewData"></app-critic-review-board>
+    </div>
+  </div>
+</div>

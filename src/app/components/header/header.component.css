@@ -1,0 +1,9 @@
+.header{
+  background: white;
+  box-shadow:  lightslategray 2px 2px 5px ;
+  height: 4rem;
+}
+
+.logo-img{
+  width: 15rem;
+}

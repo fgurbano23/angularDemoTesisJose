@@ -1,0 +1,34 @@
+<label for="input">Input </label>
+<input
+  id="input"
+  [(ngModel)]="inputValue"
+  type="text"
+  class="form-control">
+
+<button
+    class="btn btn-primary"
+    [disabled]="btnDisabled"
+    [innerText]="btnLabelMessage"
+    (click)="onClickButton()" >
+</button>
+
+<p *ngIf ="btnClick; else noClick">{{btnClickMessage +' '+ inputValue}}</p>
+
+<ng-template #noClick>
+  <p
+    [ngClass]="onLabelChange()"
+    [ngStyle]="{'color':'green'}">Do click on button</p>
+</ng-template>
+
+<div *ngFor="let user of listOfUsers; let i = index">
+  <p>{{(i+1)+'. '+user}}</p>
+</div>
+
+<div style="display: flex">
+  <app-card style="display: flex; flex-direction: row"
+            *ngFor="let cardData of cardPerson" [card]="cardData">
+  </app-card>
+</div>
+
+<app-bulletin-board [bulletinBoard]="bulletinBoard"></app-bulletin-board>
+

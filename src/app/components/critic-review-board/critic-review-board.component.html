@@ -1,0 +1,29 @@
+<div class="review-board">
+  <p class="review-title">
+    {{reviewData.reviewTitle}}
+  </p>
+  <div class="review-content">
+    <ul>
+      <li *ngFor="let review of reviewData.reviewList; let it = index">
+        <div class="review-item">
+
+          <div  class="user-summary">
+            <img
+              [src]="review.userImage"
+              alt="img"
+              class="user-image rounded-circle">
+            <div class="user-info">
+              <h6 class="username">{{review.userName}}</h6>
+              <span >{{review.userAlias}}</span>
+            </div>
+
+          </div>
+          <div class="review-summary">
+            <span class="review-article">{{review.reviewName}}</span>
+            <span class="abstract">{{review.reviewAbstract}}</span>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>

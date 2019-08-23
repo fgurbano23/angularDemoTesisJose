@@ -1,0 +1,69 @@
+.review-board{
+ /* background: #F5F7F8;*/
+  background: white;
+  /*box-shadow:  lightslategray 2px 2px 5px ;*/
+  border-left: solid .5px #d9dee3;
+  height: auto;
+  padding: 1rem;
+}
+
+.review-title{
+  text-align: center;
+  font-weight: 700;
+}
+
+.user-image{
+  width: 2rem;
+  height: 2rem;
+}
+
+.user-summary{
+  display: flex;
+  flex-direction: row;
+}
+
+.user-info > * {
+  padding-left: 1rem;
+}
+.user-info .username{
+  font-weight: 700;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.user-info > span {
+  color: darkgray;
+}
+
+.review-summary{
+  display: flex;
+  flex-direction: column;
+}
+
+.review-article{
+  padding-left: 1rem;
+  color: #E0481D;
+  font-weight: 600;
+}
+
+.abstract{
+  /*color: darkgray;*/
+  text-overflow: ellipsis;
+  text-align: justify;
+  padding-left: 1.5rem;
+  padding-right: 1rem;
+
+
+}
+
+
+
+ul {
+  padding: 0;
+}
+
+ul > li {
+  text-decoration: none;
+  list-style: none;
+  margin-bottom: 1rem;
+}

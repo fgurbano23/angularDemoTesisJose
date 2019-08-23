@@ -1,0 +1,87 @@
+.bulletin-board{
+  background: white;
+  box-shadow:  lightslategray 2px 2px 5px ;
+  height: auto;
+  width: auto;
+}
+
+.bulletin-header{
+  background: rgb(224,72,29);
+  color: white;
+  text-align: center;
+}
+
+.bulletin-item {
+  display:flex;
+}
+
+.bulletin-item p{
+  margin-right: 3rem;
+  padding-left: .3rem;
+}
+
+.bulletin-item span{
+  font-weight: 700;
+}
+
+.bulletin-item p,span{
+  flex-direction: row;
+  vertical-align: center;
+}
+
+.bulletin-content{
+  background: #fff390;
+}
+
+.item-number{
+  font-weight: 800;
+  margin-right: .5rem;
+  padding-right: 1rem;
+}
+
+.label-good{
+  background: greenyellow;
+  color: white;
+  border-radius: .1rem;
+  width: 2rem;
+  height: 1.5rem;
+  margin: auto;
+  text-align: center;
+  margin-right: .5rem;
+  border-radius: .3rem;
+}
+
+.label-regular{
+  background: orange;
+  color: white;
+  width: 2rem;
+  height: 1.5rem;
+  margin: auto;
+  text-align: center;
+  margin-right: .5rem;
+  border-radius: .3rem;
+}
+
+.label-bad{
+  background: #cd0800;
+  color: white;
+  width: 2rem;
+  height: 1.5rem;
+  margin: auto;
+  text-align: center;
+  margin-right: .5rem;
+  border-radius: .3rem;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul> li {
+  list-style: none;
+  text-decoration: none;
+  border-bottom: solid #f8d456 .5px;
+}
+
+

@@ -1,0 +1,24 @@
+<div class="bulletin-board">
+  <div class="bulletin-header">
+    <strong>
+      {{bulletinBoard.titleBoard}}
+    </strong>
+  </div>
+  <div>
+    <ul class="bulletin-content">
+      <li *ngFor="let bulletinItem of bulletinBoard.bulletinList; let it = index">
+        <div class="bulletin-item">
+          <p><span class="item-number">{{(it+1)+'.'}}</span>{{bulletinItem.title}}</p>
+          <span
+            [ngClass]="{
+              'label-good':bulletinItem.score >8 && bulletinItem.score <=10,
+              'label-regular':bulletinItem.score >=5 && bulletinItem.score <=7,
+              'label-bad': bulletinItem.score >=1 && bulletinItem.score <5
+              }">
+            {{bulletinItem.score}}
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
