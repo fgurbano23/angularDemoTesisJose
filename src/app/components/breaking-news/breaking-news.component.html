@@ -2,7 +2,7 @@
   <div class="news-item" *ngFor="let newsDataItem of breakingNews">
     <img [src]="newsDataItem.image" alt="img" class="border notice-image">
     <div class="notice-content">
-      <strong class="notice-title">{{newsDataItem.title}}</strong>
+      <strong class="notice-title"><a [routerLink]="newsDataItem.href">{{newsDataItem.title}}</a></strong>
       <span>{{newsDataItem.date}}</span>
       <p>{{newsDataItem.content}}</p>
     </div>

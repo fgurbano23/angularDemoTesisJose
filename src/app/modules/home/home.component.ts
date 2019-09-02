@@ -133,22 +133,22 @@ export class HomeComponent implements OnInit {
     title:"Lo más esperado",
     asideList : [
       {
-      itemTitle:'Aside Title'
+      itemTitle:'Aside Title', href: '/article'
       },
       {
-        itemTitle:'Aside Title'
+        itemTitle:'Aside Title',href: '/article'
       },
       {
-        itemTitle:'Aside Title'
+        itemTitle:'Aside Title',href: '/article'
       },
       {
-        itemTitle:'Aside Title'
+        itemTitle:'Aside Title',href: '/article'
       },
       {
-        itemTitle:'Aside Title'
+        itemTitle:'Aside Title',href: '/article'
       },
       {
-        itemTitle:'Aside Title'
+        itemTitle:'Aside Title',href: '/article'
       }
     ]
   };
@@ -158,61 +158,71 @@ export class HomeComponent implements OnInit {
       image:"https://i.blogs.es/66c89d/espinof_peores_carteles_2017_spiderman_homecoming/450_1000.jpg",
       title:"News title",
       date:"Agosto 19 2019",
-      content:"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor"
+      content:"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor",
+      href:"/article"
     },
     {
       image:"https://i.blogs.es/66c89d/espinof_peores_carteles_2017_spiderman_homecoming/450_1000.jpg",
       title:"News title",
       date:"Agosto 19 2019",
-      content:"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor"
+      content:"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor",
+      href:"/article"
     },
     {
       image:"https://i.blogs.es/66c89d/espinof_peores_carteles_2017_spiderman_homecoming/450_1000.jpg",
       title:"News title",
       date:"Agosto 19 2019",
-      content:"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor"
+      content:"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor",
+      href:"/article"
     },
     {
       image:"https://i.blogs.es/66c89d/espinof_peores_carteles_2017_spiderman_homecoming/450_1000.jpg",
       title:"News title",
       date:"Agosto 19 2019",
-      content:"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor"
+      content:"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor",
+      href:"/article"
     },
     {
       image:"https://i.blogs.es/66c89d/espinof_peores_carteles_2017_spiderman_homecoming/450_1000.jpg",
       title:"News title",
       date:"Agosto 19 2019",
-      content:"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor"
+      content:"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor",
+      href:"/article"
     },
     {
       image:"https://i.blogs.es/66c89d/espinof_peores_carteles_2017_spiderman_homecoming/450_1000.jpg",
       title:"News title",
       date:"Agosto 19 2019",
-      content:"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor"
+      content:"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor",
+      href:"/article"
     },
     {
       image:"https://i.blogs.es/66c89d/espinof_peores_carteles_2017_spiderman_homecoming/450_1000.jpg",
       title:"News title",
       date:"Agosto 19 2019",
-      content:"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor"
+      content:"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor",
+      href:"/article"
     },
     {
       image:"https://i.blogs.es/66c89d/espinof_peores_carteles_2017_spiderman_homecoming/450_1000.jpg",
       title:"News title",
       date:"Agosto 19 2019",
-      content:"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor"
+      content:"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor",
+      href:"/article"
     },
     {
       image:"https://i.blogs.es/66c89d/espinof_peores_carteles_2017_spiderman_homecoming/450_1000.jpg",
       title:"News title",
       date:"Agosto 19 2019",
-      content:"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor"
+      content:"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor",
+      href:"/article"
     },
     {
       image:"https://i.blogs.es/66c89d/espinof_peores_carteles_2017_spiderman_homecoming/450_1000.jpg",
       title:"News title",
       date:"Agosto 19 2019",
-      content:"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor"
+      content:"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor",
+      href:"/article"
     }
   ];
 

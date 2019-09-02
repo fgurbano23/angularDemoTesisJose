@@ -21,6 +21,10 @@ import { CriticReviewBoardComponent } from './components/critic-review-board/cri
 import { AsideComponent } from './components/aside/aside.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { BreakingNewsComponent } from './components/breaking-news/breaking-news.component';
+import { ArticleComponent } from './modules/article/article.component';
+import { ProfileComponent } from './modules/profile/profile.component';
+import { ReviewComponent } from './modules/review/review.component';
+import { FilmComponent } from './modules/film/film.component';
 
 const appRoutes: Routes = [
   {
@@ -42,6 +46,10 @@ const appRoutes: Routes = [
     AsideComponent,
     CarouselComponent,
     BreakingNewsComponent,
+    ArticleComponent,
+    ProfileComponent,
+    ReviewComponent,
+    FilmComponent,
   ],
   imports: [
     BrowserModule,

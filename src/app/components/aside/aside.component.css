@@ -12,9 +12,13 @@ ul{
 padding: 0;
 }
 
-ul li {
+ul li{
   color: #3c3c3c;
   font-weight: 700;
   list-style: none;
   text-decoration: none;
+}
+
+ul li a {
+  color: #3c3c3c;
 }
